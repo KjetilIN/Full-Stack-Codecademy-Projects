@@ -1,0 +1,44 @@
+#banner-headline{
+    font-size: 100px;
+    color: khaki;
+    background-image: url(../images/img1.webp);
+    text-align: center;
+}
+
+
+.title{
+    font-size: 32px !important;
+    color: white;
+}
+
+.under-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.brushes.title{
+    background-color: mediumaquamarine; 
+}
+
+.frames.title{
+    background-color: lightcoral;
+
+}
+
+.paint.title{
+    background-color: skyblue;
+}
+
+
+
+.bold-Helvetica{
+    font-weight: bold;
+    font-family: Helvetica;
+}
+span{
+    color:blue;
+}
