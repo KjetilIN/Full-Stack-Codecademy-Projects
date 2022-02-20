@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0 0;
+}
+/* Under heading*/
+h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    line-height: 3;
+    font-weight: 700;
+
+    
+}
+
+
+
+
+/* Banner */
+
+.banner h1{
+    margin: 0px auto;
+    padding: 100px 100px;
+    background-image: url(../images/banner.png);
+    color: white;
+    border: 3px solid black;
+    text-shadow:-1px -1px 0 #000,
+    3px -3px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
+#banner-text{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+/* Tabel */
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+/* Footer */
+footer{
+    background-color: #000;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 100px 100px;
+    height: 50px;
+    margin-bottom: -500px;
+    
+}
