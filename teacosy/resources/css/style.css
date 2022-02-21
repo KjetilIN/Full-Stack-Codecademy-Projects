@@ -1,32 +1,47 @@
 *{
-    margin: 0;
-    padding: 0;
-    background-color: black;
-}
-
-/* Text specs for the page*/
-.text{
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
+    background-color: black;
     opacity: 0.9;
 
 }
 
-/* Header */
-nav{
-    text-decoration: underline;
-    
 
-}
-
-#logo{
-    opacity: 0.4;
-    text-align: left;
-}
-
-header{
+/* Top bar */
+.header{
+    width: 100%;
+    height: 69px;
+    display: block;
+    background-color: black;
     position: fixed;
-    flex: content;
-    flex-direction: column;
+    top: 0px;
+
 }
+
+.logo{
+    height: 50px;
+    float: left;
+    padding-left: 10px;
+}
+
+.nav{
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.nav a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 0px;
+}
+
+.nav a li{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* https://www.youtube.com/watch?v=nSRC9NIam6w&ab_channel=NenadDabic */
