@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* Text specs for the page*/
+.text{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+
+}
+
+/* Header */
+nav{
+    text-decoration: underline;
+    
+
+}
+
+#logo{
+    opacity: 0.4;
+    text-align: left;
+}
+
+header{
+    position: fixed;
+    flex: content;
+    flex-direction: column;
+}
